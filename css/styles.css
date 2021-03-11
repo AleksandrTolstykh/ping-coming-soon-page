@@ -1,0 +1,74 @@
+body {
+  font-family: "Libre Franklin";
+}
+
+h1 {
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+}
+
+h1 span {
+  color: hsl(209, 33%, 12%);
+  font-weight: 700;
+}
+
+h5 {
+  color: hsl(209, 33%, 12%);
+  font-weight: 300;
+}
+
+input {
+  border-radius: 20px!important;
+}
+
+button {
+  background-color: hsl(223, 87%, 63%)!important;
+  border-radius: 20px!important;
+  color: #fff!important;
+  font-weight: 600!important;
+}
+
+button:hover {
+  opacity: 50%;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  border: 1px solid #ced4da;
+  border-right: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.icon {
+  color: hsl(223, 87%, 63%);
+}
+
+.icon:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+
+.error-message {
+  color: hsl(354, 100%, 66%);
+  font-size: 12px;
+}
+
+.copyright {
+  color: hsl(0, 0%, 59%);
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.red-border {
+  border-color: hsl(354, 100%, 66%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
